@@ -1,0 +1,12 @@
+html
+    include html/head.html
+    body
+        include html/header
+        include html/main.html
+        include html/test
+        include html/footer
+        script(src="js/app.min.js")
+        script(src="/bower_components/modernizr/modernizr.js")
+        script(src="/bower_components/jquery/dist/jquery.min.js")
+        script(src="/bower_components/foundation/js/foundation.min.js")
+        script($(document).foundation())

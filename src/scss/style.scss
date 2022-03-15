@@ -1,0 +1,12 @@
+@import "../../sass/partials/settings";
+@import "../../sass/partials/foundation";
+@import 'fonts';
+
+
+  body {
+    font-family: Roboto;
+    background: lightblue;
+    span {
+      color:black;
+    }
+  }
